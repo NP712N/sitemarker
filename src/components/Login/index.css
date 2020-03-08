@@ -1,0 +1,28 @@
+.Login {
+  display: block;
+  width: 400px;
+  padding: 15px;
+  border: 1px solid white;
+}
+.input-f {
+  display: flex;
+  height: -webkit-fill-available;
+  align-items: center;
+  place-content: center;
+  background-image: url('https://images.pexels.com/photos/2226484/pexels-photo-2226484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.btn {
+  border: none;
+  color: white;
+  font-size: 17px;
+  background: #ff3366;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 15px 0;
+  height: 50px;
+}
+.btn:hover {
+  border: 1px solid white;
+  font-weight: bold;
+}

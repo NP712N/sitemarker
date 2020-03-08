@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Layout from './hoc/Layout'
+import Login from './components/Login'
+import { Route, Switch } from 'react-router-dom'
+import SiteMarker from './containers/siteMakers'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Layout>
+        <Switch>
+          <Route path='/' exact>
+            <SiteMarker />
+          </Route>
+          <Route path='/login' component={Login}></Route>
+        </Switch>
+      </Layout>
+    )
+  }
 }
-
-export default App;
+export default App

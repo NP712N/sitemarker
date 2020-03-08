@@ -1,0 +1,59 @@
+.SiteMaker {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid 1px rgba(255, 255, 255, 0.212);
+  box-shadow: 5px 5px 9px #aaaaaa;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  color: rgba(24, 24, 23, 0.925);
+  margin: 10px 10px;
+  padding: 10px;
+}
+.Detail {
+  height: 100%;
+  padding: 10px;
+  display: block;
+  width: auto;
+}
+.SiteMaker img {
+  height: 50px;
+  width: 50px;
+}
+@media (min-width: 500px) {
+  .SiteMaker {
+    display: inline-flex;
+    height: 150px;
+    width: 500px;
+  }
+
+  .SiteMaker:hover {
+    background-color: rgba(216, 216, 216, 0.7);
+    border: solid 1px rgba(216, 216, 216, 0.7);
+    box-shadow: 5px 5px 15px #7e7d7d;
+  }
+  .SiteMaker img {
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .Detail {
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+  }
+  .Detail h2 {
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .Detail h5 {
+    margin: 0;
+    padding-bottom: 15px;
+  }
+  .Detail p {
+    margin: 0;
+  }
+}

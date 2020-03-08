@@ -1,0 +1,16 @@
+.ListMakers {
+  display: block;
+}
+
+.Folder {
+  float: left;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: solid 1px white;
+}
+
+.Folder h3 {
+  color: whitesmoke;
+  font-size: 30px;
+  margin: 9px;
+}
